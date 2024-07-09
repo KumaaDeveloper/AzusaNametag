@@ -1,0 +1,18 @@
+name: AzusaNametag
+version: 1.0.0
+api: [5.0.0]
+main: KumaDev\AzusaNametag\Main
+author: KumaDeveloper
+description: Plugin that removes nametags of other players
+commands:
+  hidenametag:
+    description: "Hide all players nametags."
+    permission: "azusanametag.command.hidenametag"
+  shownametag:
+    description: "Show all players nametags."
+    permission: "azusanametag.command.shownametag"
+permissions:
+  azusanametag.command.hidenametag:
+    default: op
+  azusanametag.command.shownametag:
+    default: op
