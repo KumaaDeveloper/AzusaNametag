@@ -5,4 +5,5 @@ branches:
 projects:
   AzusaNametag:
     path: ""
+    icon: icon.png
 ...
